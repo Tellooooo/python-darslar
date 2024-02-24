@@ -1,0 +1,14 @@
+import random
+
+
+
+A = []
+S = 0
+N = int(input("N = "))
+for i in range(1 , N + 1):
+    Z = random.randint(1 , 3)
+    A.append(Z)
+print(A)
+for i in A:
+    S = S + (i ** 2)
+print(S)
