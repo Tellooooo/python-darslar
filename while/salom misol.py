@@ -1,3 +1,4 @@
+#salom github
 i = 1
 
 while i <= 15:
